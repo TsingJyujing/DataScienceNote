@@ -15,4 +15,6 @@ for i = 1:4
     loli_zip = reshape(loli_vec_zip,x,y,channel);
     subplot(1,4,i)
     imshow(loli_zip)
+    imwrite(loli_zip,['loli_zip_' num2str(i) '.jpg'])
+    disp(['loli_zip_' num2str(i) '.jpg has saved.'])
 end
