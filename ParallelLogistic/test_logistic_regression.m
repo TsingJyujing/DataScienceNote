@@ -6,7 +6,7 @@ load('Datapack.mat')
 %parameters setting
 thread_count = 20;
 batchN = 1;
-alpha = 0.5;
+alpha = 0.45;
 
 %prepare pointers for dll(*.so file)
 pData = libpointer('doublePtr',Data);
